@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body class="back">
+    <div class="Heading">
+        <p class="animate-charcter">Attendance Calculator</p>
+    </div>
+    <div class="box">
+        <div class="bhr">
+            <div class="boxes">
+                <label>Total present</label>
+                <input type="text" placeholder="Total Present" class="tel" id="present">
+            </div>
+            <div class="boxes">
+                <label>Total lrctures</label>
+                <input type="text" placeholder="Total Lectures" class="tel" id="total">
+            </div>
+            <div class="boxes">
+                <label for="">Attendance needed</label>
+                <input type="text" placeholder="Attendance needed" class="tel" id="needed">
+            </div>
+            <div class="calc">
+                <button class="cal" onclick="result()">Calculate</button>
+            </div>
+            <div class="result">
+                <p id="input"></p>
+            </div>
+            <div class="result">
+                <p id="need"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
